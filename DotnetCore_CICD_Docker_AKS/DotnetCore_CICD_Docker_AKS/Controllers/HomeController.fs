@@ -11,6 +11,7 @@ open Microsoft.Extensions.Logging
 
 open DotnetCore_CICD_Docker_AKS.Models
 
+
 type HomeController (logger : ILogger<HomeController>) =
     inherit Controller()
 
